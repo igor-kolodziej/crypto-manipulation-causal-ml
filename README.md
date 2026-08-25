@@ -1,8 +1,8 @@
 # Causal ML for Crypto-Market Manipulation
 
-Research code and thesis materials for **Causal AI for Detecting Crypto Market Manipulation**, my MSc thesis in Data Science & Business Analysis at the University of Warsaw (2026, graduated with distinction).
+Research code and materials from **Causal AI for Detecting Crypto Market Manipulation**, my MSc thesis in Data Science & Business Analysis at the University of Warsaw. I graduated with distinction in 2026.
 
-The project studies whether the wording and timing of Telegram pump-and-dump signals help explain the immediate market response after a target coin is revealed. It deliberately separates two questions:
+I studied whether the wording and timing of Telegram pump-and-dump signals help explain the immediate market response after a target coin is revealed. I treated prediction and causal estimation as separate questions:
 
 1. **Prediction:** can success be classified using information available before the reveal?
 2. **Causal estimation:** how are signal characteristics associated with short-horizon returns after accounting for observed confounders?
