@@ -35,10 +35,10 @@ Raw Telegram content, annotation data, account/channel identifiers, and propriet
 
 ```text
 event records
-    │
-    ├── schema validation ──► grouped train/test split ──► predictive benchmark
-    │
-    └── treatment/outcome definition ──► DML / causal forest ──► effect estimates
+    |
+    +-- schema validation -> grouped train/test split -> predictive benchmark
+    |
+    +-- treatment/outcome definition -> DML / causal forest -> effect estimates
 ```
 
 ## Quick start
@@ -72,5 +72,4 @@ The original data-collection stage was informed by the public research artifacts
 
 ## Author
 
-[Igor Kołodziej](https://igor-kolodziej.github.io/) · [LinkedIn](https://www.linkedin.com/in/igor-kolodziej/)
-
+[Igor Kołodziej](https://igor-kolodziej.github.io/) | [LinkedIn](https://www.linkedin.com/in/igor-kolodziej/)
